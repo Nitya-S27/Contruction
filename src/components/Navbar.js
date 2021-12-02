@@ -1,12 +1,33 @@
 import React from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.scss";
+import NavbarLinks from "./NavbarLinks";
 const Navbar = () => {
+  // const navbarHandler = () => {
+  //   return;
+  // };
+
   return (
-    <div className="navbar-wrapper">
-      <div className="navbar-brand">
-        <img src="favicon.ico" alt="brand-logo" />
+    <div>
+      <div className="navbar-wrapper-web">
+        <div className="navbar-brand">
+          <img src="assets/navbar-brand.png" alt="brand-logo" />
+          <span>Lorem Ipsum</span>
+        </div>
+        <NavbarLinks />
       </div>
-      {/* <NavbarLinks /> */}
+      <div className="navbar-wrapper-mobile">
+        <div className="navbar-brand">
+          <img src="assets/navbar-brand.png" alt="brand-logo" />
+          <span>Lorem Ipsum</span>
+        </div>
+        <GiHamburgerMenu
+          style={{ marginRight: "2rem" }}
+          size="2rem"
+          color="#161853"
+        />
+        {/* <NavbarLinks /> */}
+      </div>
     </div>
   );
 };

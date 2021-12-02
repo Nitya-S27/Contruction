@@ -1,0 +1,23 @@
+$color1: #161853;
+$color2: #292c6d;
+$color3: #faedf0;
+$color4: #ec255a;
+
+.nav-links {
+  margin-right: 10rem;
+  li {
+    display: inline;
+  }
+  a {
+    color: $color1;
+    text-decoration: none;
+    padding-right: 2rem;
+    &:hover {
+      color: $color4;
+    }
+    &:focus {
+      text-decoration: underline $color4;
+      text-underline-position: under;
+    }
+  }
+}
