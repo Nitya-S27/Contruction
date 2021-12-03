@@ -6,6 +6,7 @@ import About from "./components/About";
 import Facilities from "./components/Facilities";
 import Stastics from "./components/Stastics";
 import Footer from "./components/Footer";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Stastics />
       <Facilities />
+      <ContactUs />
       <Footer />
     </>
   );
