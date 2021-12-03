@@ -6,23 +6,23 @@ $footerGray: #979797;
 .footer-wrapper {
   background-color: $color1;
   font-family: "Montserrat", sans-serif;
-  padding: 3rem 0;
+  padding: 4rem 0;
   @media (max-width: 1024px) {
-    padding: 2rem 0;
+    padding: 3rem 0;
   }
   @media (max-width: 600px) {
     padding: 1rem 0;
   }
   .footer-up {
-    padding: 2rem;
+    padding: 1rem;
     .icons-div {
       display: flex;
       justify-content: center;
       align-items: center;
       .icon-box {
         border-radius: 200px;
-        border: 3px solid $footerGray;
-        padding: 1.5rem;
+        border: 2px solid $footerGray;
+        padding: 1.1rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -37,17 +37,17 @@ $footerGray: #979797;
           border: 2px solid $footerGray;
         }
         @media (max-width: 450px) {
-          margin: 0 0.5rem;
+          margin: 0 0.3rem;
         }
         &:hover {
-          border: 3px solid $color4;
+          border: 2px solid $color4;
           .icon-image {
             color: white;
           }
         }
         .icon-image {
           color: $footerGray;
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           transition: 0.3s ease;
           @media (max-width: 600px) {
             font-size: 1rem;
@@ -60,25 +60,25 @@ $footerGray: #979797;
       justify-content: center;
       gap: 2rem;
       align-items: center;
-      margin: 3rem 0;
+      margin: 2rem 0;
       @media (max-width: 1024px) {
-        margin: 2rem 0;
+        margin: 0.8rem 0;
         gap: 1rem;
       }
       .logo-img {
-        max-width: 6rem;
+        max-width: 5rem;
         @media (max-width: 1024px) {
-          max-width: 5rem;
+          max-width: 4rem;
         }
       }
       .logo-text {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: white;
         @media (max-width: 1024px) {
-          font-size: 1.5rem;
+          font-size: 1.2rem;
         }
         @media (max-width: 600px) {
-          font-size: 1rem;
+          font-size: 0.8rem;
         }
       }
     }
@@ -87,11 +87,12 @@ $footerGray: #979797;
       padding: 0 20vw;
       text-align: center;
       //   margin: 0 auto;
+      font-size: 0.9rem;
       @media (max-width: 1024px) {
         padding: 0 15vw;
       }
       @media (max-width: 600px) {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         padding: 0 5vw;
       }
     }
