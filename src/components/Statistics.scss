@@ -1,0 +1,38 @@
+$color1: #161853;
+$color2: #292c6d;
+$color3: #faedf0;
+$color4: #ec255a;
+$footerGray: #979797;
+$font-family: "Montserrat", sans-serif;
+
+.statistics {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("./parallax-background.jpg");
+  min-height: 100%;
+  padding: 7% 10%;
+  display: flex;
+  text-align: center;
+  font-family: $font-family;
+  .stats-data {
+    width: 100%;
+    @media (max-width: 1024px) {
+      margin-bottom: 7%;
+    }
+    .stats-data__num {
+      color: $color4;
+      font-size: 2.5rem;
+      margin-bottom: 2%;
+    }
+    .stats-data__task {
+      color: $color3;
+      font-size: 0.9em;
+    }
+  }
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    padding-top: 10%;
+  }
+}

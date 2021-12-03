@@ -1,0 +1,50 @@
+$color1: #161853;
+$color2: #292c6d;
+$color3: #faedf0;
+$color4: #ec255a;
+$font-family: "Montserrat", sans-serif;
+
+.about {
+  font-family: $font-family;
+  padding: 7rem 7rem 0;
+  text-align: center;
+  align-content: center;
+  background-color: #f7f7f7;
+  h1 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin: auto auto 1.5rem;
+  }
+  .border-div {
+    border-top: 3px solid $color4;
+    padding-bottom: 2rem;
+    width: 5rem;
+    text-align: center;
+    margin: auto;
+  }
+  .about__para {
+    display: block;
+    margin: 0 auto 2rem;
+    width: 75%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    color: gray;
+    @media (max-width: 1024px) {
+      margin: 0 auto 2rem;
+      width: 100%;
+    }
+  }
+  .about__img {
+    text-align: center;
+    img {
+      margin-top: 2%;
+      margin-bottom: 0%;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 1024px) {
+    padding: 5% 5% 0;
+  }
+}
