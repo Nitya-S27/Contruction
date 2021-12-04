@@ -5,6 +5,7 @@ import Construction from "./components/Construction";
 import About from "./components/About";
 import Facilities from "./components/Facilities";
 import Stastics from "./components/Stastics";
+import Team from "./components/Team";
 import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
 
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Stastics />
       <Facilities />
+      <Team />
       <ContactUs />
       <Footer />
     </>
