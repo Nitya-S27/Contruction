@@ -6,7 +6,7 @@ $font-family: "Montserrat", sans-serif;
 
 .construction {
   font-family: $font-family;
-  margin: 7rem;
+  margin: 5%;
   text-align: center;
   align-content: center;
   h1 {
@@ -68,8 +68,5 @@ $font-family: "Montserrat", sans-serif;
         }
       }
     }
-  }
-  @media (max-width: 600px) {
-    margin: 2rem;
   }
 }

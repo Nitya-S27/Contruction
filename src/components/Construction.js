@@ -3,7 +3,7 @@ import "./Construction.scss";
 
 const Construction = () => {
   return (
-    <div className="construction">
+    <div id="construction" className="construction">
       <h1>CONSTRUCTION</h1>
       <div className="border-div"></div>
       <p className="construction__para">

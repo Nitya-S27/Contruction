@@ -7,12 +7,10 @@ $font-family: "Montserrat", sans-serif;
 
 .contact-us {
   font-family: $font-family;
-  margin: 4rem 7rem;
+  margin: 4% 7%;
   text-align: center;
   align-content: center;
-  @media (max-width: 600px) {
-    margin: 2rem 1rem;
-  }
+
   h1 {
     font-weight: 200;
     font-size: 1.5rem;
