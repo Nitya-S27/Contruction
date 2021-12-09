@@ -5,6 +5,7 @@ import HeroBg from "./components/HeroBg";
 import Construction from "./components/Construction";
 import About from "./components/About";
 import Facilities from "./components/Facilities";
+import Services from "./components/Services";
 import Stastics from "./components/Stastics";
 import WhyUs from "./components/WhyUs";
 import Team from "./components/Team";
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Stastics />
       <Facilities />
+      <Services />
       <WhyUs />
       <Team />
       <ContactUs />
