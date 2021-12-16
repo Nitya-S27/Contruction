@@ -1,7 +1,7 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.scss";
-import NavbarLinks from "./NavbarLinks";
+import NavbarLinks from "./elements/NavbarLinks";
 const Navbar = () => {
   // const navbarHandler = () => {
   //   return;

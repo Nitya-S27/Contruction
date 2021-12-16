@@ -4,12 +4,11 @@ $color3: #faedf0;
 $color4: #ec255a;
 $font-family: "Montserrat", sans-serif;
 
-.about {
+.team {
   font-family: $font-family;
-  padding: 5% 5% 0;
+  padding: 5% 5% 4%;
   text-align: center;
   align-content: center;
-  background-color: #f7f7f7;
   h1 {
     font-weight: 200;
     font-size: 1.5rem;
@@ -22,7 +21,7 @@ $font-family: "Montserrat", sans-serif;
     text-align: center;
     margin: auto;
   }
-  .about__para {
+  .team__para {
     display: block;
     margin: 0 auto 2rem;
     width: 75%;
@@ -35,16 +34,5 @@ $font-family: "Montserrat", sans-serif;
       margin: 0 auto 2rem;
       width: 100%;
     }
-  }
-  .about__img {
-    text-align: center;
-    img {
-      margin-top: 2%;
-      margin-bottom: 0%;
-      max-width: 100%;
-    }
-  }
-  @media (max-width: 1024px) {
-    padding: 5% 5% 0;
   }
 }

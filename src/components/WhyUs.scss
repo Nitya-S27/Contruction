@@ -1,0 +1,76 @@
+$color1: #161853;
+$color2: #292c6d;
+$color3: #faedf0;
+$color4: #ec255a;
+$font-family: "Montserrat", sans-serif;
+.wrapper-why-us {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      0deg,
+      rgba(1, 1, 1, 0.7),
+      rgba(1, 1, 1, 0.7)
+    ),
+    url("./backgrounds/group.jpg");
+  min-height: 100%;
+  padding: 7%;
+  .why-us {
+    font-family: $font-family;
+    text-align: center;
+    align-content: center;
+    h1 {
+      color: #ffffff;
+      font-size: 2rem;
+      margin: auto auto 1.5rem;
+      @media (max-width: 600px) {
+        font-size: 1.5rem;
+      }
+    }
+    .border-div {
+      border-top: 3px solid $color4;
+      padding-bottom: 2rem;
+      width: 5rem;
+      text-align: center;
+      margin: auto;
+    }
+  }
+  .collapse {
+    margin: 2% 15% 2%;
+    border: 0px;
+    background-color: transparent;
+    .pannel {
+      transition: all 0.5s ease;
+      margin-bottom: 2%;
+      background-color: $color3;
+      border-radius: 3px;
+      &:hover {
+        background-color: $color4;
+        .ant-collapse-header {
+          color: #ffffff;
+        }
+      }
+      .ant-collapse-header {
+        font-size: 1.2rem;
+        @media (max-width: 600px) {
+          font-size: 0.9rem;
+        }
+      }
+      .ant-collapse-header svg {
+        font-size: 0.8rem;
+        margin: auto;
+        @media (max-width: 600px) {
+          font-size: 0.6rem;
+        }
+      }
+      p {
+        font-size: 0.9rem;
+        color: grey;
+        @media (max-width: 600px) {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}

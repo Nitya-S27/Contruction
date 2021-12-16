@@ -6,26 +6,32 @@ import { GiLightBulb, GiPencilRuler } from "react-icons/gi";
 const Facilities = () => {
   const offeredFacilities = [
     {
+      id: "1",
       image: <FaHardHat className="offer-img" />,
       description: "CONSTRUCTION",
     },
     {
+      id: "2",
       image: <FaPaintRoller className="offer-img" />,
       description: "RENOVATION",
     },
     {
+      id: "3",
       image: <MdPerson className="offer-img" />,
       description: "CONSULTING",
     },
     {
+      id: "4",
       image: <MdOutlineConstruction className="offer-img" />,
       description: "CONSTRUCT",
     },
     {
+      id: "5",
       image: <GiPencilRuler className="offer-img" />,
       description: "ARCHITECTURE",
     },
     {
+      id: "6",
       image: <GiLightBulb className="offer-img" />,
       description: "ELECTRICAL",
     },
@@ -42,7 +48,7 @@ const Facilities = () => {
       </p>
       <div className="facility__overview">
         {offeredFacilities.map((offers) => (
-          <div className="offers">
+          <div key={offers.id} className="offers">
             <div className="offer-img-div">{offers.image}</div>
             <a href="#" className="offer-des">
               {offers.description}

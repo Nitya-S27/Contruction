@@ -3,7 +3,7 @@ import "./Construction.scss";
 
 const Construction = () => {
   return (
-    <div className="construction">
+    <div id="construction" className="construction">
       <h1>CONSTRUCTION</h1>
       <div className="border-div"></div>
       <p className="construction__para">
@@ -14,7 +14,7 @@ const Construction = () => {
       </p>
       <div className="construction__images">
         <div>
-          <img src="assets/demo-img.jpg" alt="random-images" />
+          <img src="assets/img1.jpg" alt="random-images" />
           <a href="#">
             <h1>Lorem Ipsum</h1>
           </a>
@@ -24,7 +24,7 @@ const Construction = () => {
           </p>
         </div>
         <div>
-          <img src="assets/demo-img.jpg" alt="random-images" />
+          <img src="assets/img2.jpg" alt="random-images" />
           <a href="#">
             <h1>Lorem Ipsum</h1>
           </a>
@@ -34,7 +34,7 @@ const Construction = () => {
           </p>
         </div>
         <div>
-          <img src="assets/demo-img.jpg" alt="random-images" />
+          <img src="assets/img3.jpg" alt="random-images" />
           <a href="#">
             <h1>Lorem Ipsum</h1>
           </a>

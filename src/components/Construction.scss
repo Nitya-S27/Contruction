@@ -6,16 +6,16 @@ $font-family: "Montserrat", sans-serif;
 
 .construction {
   font-family: $font-family;
-  margin: 7rem;
+  margin: 7%;
   text-align: center;
   align-content: center;
   h1 {
     font-weight: 200;
     font-size: 1.5rem;
-    margin: auto auto 0.7rem;
+    margin: auto auto 1.5rem;
   }
   .border-div {
-    border-top: 4px solid $color4;
+    border-top: 3px solid $color4;
     padding-bottom: 2rem;
     width: 5rem;
     text-align: center;
@@ -48,6 +48,7 @@ $font-family: "Montserrat", sans-serif;
       }
       a {
         text-decoration: none;
+        color: black;
         h1 {
           margin-top: 1.7rem;
           font-size: 1.1rem;
@@ -67,8 +68,5 @@ $font-family: "Montserrat", sans-serif;
         }
       }
     }
-  }
-  @media (max-width: 600px) {
-    margin: 2rem;
   }
 }

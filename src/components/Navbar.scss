@@ -5,6 +5,7 @@ $color4: #ec255a;
 $font-family: "Montserrat", sans-serif;
 
 .navbar-wrapper-web {
+  z-index: 100;
   background-color: #ffffff;
   padding: 0 7rem;
   display: flex;
