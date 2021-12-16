@@ -61,7 +61,9 @@ const Services = () => {
                 <div className="services__des" key={service.id}>
                   <div className="services__image">{service.image}</div>
                   <div className="services__info">
-                    <a>{service.serice_heading}</a>
+                    <a href="#" target="_blank">
+                      {service.serice_heading}
+                    </a>
                     <p>{service.service_des}</p>
                   </div>
                 </div>

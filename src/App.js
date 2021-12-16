@@ -4,9 +4,10 @@ import Navbar from "./components/Navbar";
 import HeroBg from "./components/HeroBg";
 import Construction from "./components/Construction";
 import About from "./components/About";
+import Stastics from "./components/Stastics";
 import Facilities from "./components/Facilities";
 import Services from "./components/Services";
-import Stastics from "./components/Stastics";
+import Testimonials from "./components/Testimonials";
 import WhyUs from "./components/WhyUs";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
@@ -22,6 +23,7 @@ function App() {
       <Stastics />
       <Facilities />
       <Services />
+      <Testimonials />
       <WhyUs />
       <Team />
       <ContactUs />
