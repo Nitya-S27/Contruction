@@ -3,76 +3,64 @@ $color2: #292c6d;
 $color3: #faedf0;
 $color4: #ec255a;
 
-.web-carousel {
-  display: flex;
-  justify-content: center;
-  .team-members {
-    display: flex;
-    margin-bottom: 4%;
-    justify-content: center;
-    .team-contents {
-      position: relative;
-      margin: 2%;
-      background-color: #f7f7f7;
-      &:hover {
-        .overlay {
-          height: 20%;
-        }
-      }
-      .team-contents__name {
-        font-size: 1.2rem;
-        font-weight: bolder;
-        margin-bottom: 0;
-      }
-      .team-contents__designation {
-        font-size: -1%;
-        margin: 1% auto 10%;
-      }
-
+.team-carousel {
+  margin: 5% 5% auto;
+  padding-bottom: 5%;
+  .team-contents {
+    background-color: #f7f7f7;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    &:hover {
       .overlay {
+        height: 20%;
+      }
+    }
+    .team-contents__name {
+      font-size: 1.2rem;
+      font-weight: bolder;
+      margin: 0;
+      padding: 5% 0 0;
+    }
+    .team-contents__designation {
+      font-size: -1%;
+      padding-bottom: 7%;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 24%;
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.3);
+      // background-color: transparent;
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: 0.5s ease;
+      .icons {
+        color: white;
+        font-size: 2rem;
         position: absolute;
-        bottom: 25%;
-        left: 0;
-        right: 0;
-        background-color: rgba(255, 255, 255, 0.3);
-        // background-color: transparent;
-        overflow: hidden;
-        width: 100%;
-        height: 0;
-        transition: 0.5s ease;
-        .icons {
-          color: white;
-          font-size: 2rem;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-          text-align: center;
-          .twitter {
-            color: #1da1f2;
-          }
-          .google {
-            color: #ff4747;
-          }
-          .linkedin {
-            color: #0077b5;
-          }
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        .twitter {
+          color: #1da1f2;
+        }
+        .google {
+          color: #ff4747;
+        }
+        .linkedin {
+          color: #0077b5;
         }
       }
     }
   }
-}
-.ant-carousel .slick-dots li button {
-  background: $color2;
-  width: 0.7rem !important;
-  height: 0.7rem;
-  border-radius: 100%;
-  opacity: 0.4;
-}
-
-.ant-carousel .slick-dots li.slick-active button {
-  opacity: 1;
-  background: $color2;
+  &:hover {
+    cursor: grab;
+  }
 }
