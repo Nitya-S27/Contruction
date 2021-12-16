@@ -55,8 +55,8 @@ $font-family: "Montserrat", sans-serif;
         padding: 1rem 0;
         .box-title {
           font-weight: 600;
-          font-size: 1.5rem;
-          color: $color4;
+          font-size: 1.4rem;
+          // color: $color4;
         }
         .box-text {
           font-weight: 400;
@@ -107,8 +107,8 @@ $font-family: "Montserrat", sans-serif;
           font-family: Montserrat, sans-serif !important;
 
           &:hover {
-            transform: scale(1.05);
-            background-color: #bb3055;
+            // transform: scale(1.05);
+            background-color: $color1;
           }
           @media (max-width: 1024px) {
             display: none;
@@ -146,8 +146,7 @@ $font-family: "Montserrat", sans-serif;
           cursor: pointer;
           transition: 0.3s ease;
           &:hover {
-            transform: scale(1.05);
-            background-color: #bb3055;
+            background-color: $color1;
           }
           @media (max-width: 1024px) {
             display: block;
