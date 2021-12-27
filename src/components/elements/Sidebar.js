@@ -37,7 +37,7 @@ export default function TemporaryDrawer({ open, set }) {
     >
       <List>
         <a
-          href="#construction"
+          href="/#construction"
           style={{ textDecoration: "none", color: "black" }}
         >
           <ListItem button>
@@ -47,7 +47,7 @@ export default function TemporaryDrawer({ open, set }) {
             <ListItemText primary="Construction" />
           </ListItem>
         </a>
-        <a href="#aboutus" style={{ textDecoration: "none", color: "black" }}>
+        <a href="/#aboutus" style={{ textDecoration: "none", color: "black" }}>
           <ListItem button>
             <ListItemIcon>
               <InboxIcon />
@@ -56,7 +56,7 @@ export default function TemporaryDrawer({ open, set }) {
           </ListItem>
         </a>
         <a
-          href="#facilities"
+          href="/#facilities"
           style={{ textDecoration: "none", color: "black" }}
         >
           <ListItem button>
@@ -67,7 +67,7 @@ export default function TemporaryDrawer({ open, set }) {
           </ListItem>
         </a>
         <a
-          href="#testimonials"
+          href="/#testimonials"
           style={{ textDecoration: "none", color: "black" }}
         >
           <ListItem button>
@@ -77,7 +77,7 @@ export default function TemporaryDrawer({ open, set }) {
             <ListItemText primary="Testimonials" />
           </ListItem>
         </a>
-        <a href="#ourteam" style={{ textDecoration: "none", color: "black" }}>
+        <a href="/#ourteam" style={{ textDecoration: "none", color: "black" }}>
           <ListItem button>
             <ListItemIcon>
               <InboxIcon />
@@ -85,7 +85,10 @@ export default function TemporaryDrawer({ open, set }) {
             <ListItemText primary="Our Team" />
           </ListItem>
         </a>
-        <a href="#contactus" style={{ textDecoration: "none", color: "black" }}>
+        <a
+          href="/#contactus"
+          style={{ textDecoration: "none", color: "black" }}
+        >
           <ListItem button>
             <ListItemIcon>
               <InboxIcon />

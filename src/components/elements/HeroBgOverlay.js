@@ -31,14 +31,16 @@ const HeroOverlay = () => {
           return <h1 key={description.id}>{description.des}</h1>;
         })}
       </Carousel>
-      <button className="button-1" type="submit">
-        Learn More
-      </button>
-      <a href="#" target="_blank">
-        <button className="button-2" type="submit">
-          Our Folio <BsArrowRightCircleFill className="arrow" />
+      <div className="buttons">
+        <button className="button-1" type="submit">
+          Learn More
         </button>
-      </a>
+        <a href="#folio">
+          <button className="button-2" type="submit">
+            Our Folio <BsArrowRightCircleFill className="arrow" />
+          </button>
+        </a>
+      </div>
     </div>
   );
 };

@@ -3,22 +3,28 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.scss";
 import NavbarLinks from "./elements/NavbarLinks";
 import Sidebar from "./elements/Sidebar";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
   return (
     <div>
       <div className="navbar-wrapper-web">
-        <div className="navbar-brand">
-          <img src="assets/navbar-brand.png" alt="brand-logo" />
-          <span>Lorem Ipsum</span>
-        </div>
+        <Link to="/">
+          <div className="navbar-brand">
+            <img src="assets/navbar-brand.png" alt="brand-logo" />
+            <span style={{ color: "black" }}>Lorem Ipsum</span>
+          </div>
+        </Link>
+
         <NavbarLinks />
       </div>
       <div className="navbar-wrapper-mobile">
-        <div className="navbar-brand">
-          <img src="assets/navbar-brand.png" alt="brand-logo" />
-          <span>Lorem Ipsum</span>
-        </div>
+        <Link to="/">
+          <div className="navbar-brand">
+            <img src="assets/navbar-brand.png" alt="brand-logo" />
+            <span style={{ color: "black" }}>Lorem Ipsum</span>
+          </div>
+        </Link>
         <GiHamburgerMenu
           style={{ marginRight: "2rem" }}
           size="2rem"

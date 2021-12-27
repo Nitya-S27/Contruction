@@ -1,9 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import WorkImageOverlay from "./elements/WorkImageOverlay";
 import "./Folio.scss";
 import { works } from "./FolioWorkData";
 const Folio = () => {
-  console.log(works);
   return (
     <div className="folio_wrapper" id="folio">
       <h1>OUR WORKS</h1>
@@ -18,12 +18,14 @@ const Folio = () => {
       <div className="worksDiv">
         {works.map((work) => (
           <div className="work" key={work.id}>
-            <img
-              className="workImage"
-              src={work.image}
-              alt={work.overlayTitle}
-            />
-            <WorkImageOverlay work={work} />
+            <Link to={`/works?workId=${work.id}`}>
+              <img
+                className="workImage"
+                src={work.image}
+                alt={work.overlayTitle}
+              />
+              <WorkImageOverlay work={work} />
+            </Link>
           </div>
         ))}
       </div>
