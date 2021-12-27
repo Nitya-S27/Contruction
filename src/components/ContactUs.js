@@ -17,7 +17,7 @@ const ContactUs = () => {
     console.log(name + email + subject + message);
   };
   return (
-    <div className="contact-us">
+    <div className="contact-us" id="contactus">
       <h1>CONTACT US</h1>
       <div className="border-div"></div>
       <p className="contact-us__para">

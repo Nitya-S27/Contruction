@@ -7,11 +7,11 @@ $font-family: "Montserrat", sans-serif;
 .navbar-wrapper-web {
   z-index: 100;
   background-color: #ffffff;
-  padding: 0 7rem;
+  padding: 0 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 0 10px $color1;
+  box-shadow: 0 0 5px $color1;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -20,24 +20,30 @@ $font-family: "Montserrat", sans-serif;
   .navbar-brand {
     display: flex;
     align-items: center;
+    min-width: 30%;
     img {
-      width: 15%;
+      width: 100px;
+      object-fit: contain;
     }
     span {
       font-size: 1.5rem;
       margin-left: 1rem;
       font-weight: 400;
+      @media (max-width: 1024px) {
+        font-size: 1.2rem;
+      }
     }
   }
 }
 .navbar-wrapper-mobile {
   display: none;
 }
-@media (max-width: 630px) {
+@media (max-width: 800px) {
   .navbar-wrapper-web {
     display: none;
   }
   .navbar-wrapper-mobile {
+    z-index: 100;
     display: flex;
     background-color: #ffffff;
     align-items: center;

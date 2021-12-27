@@ -15,7 +15,7 @@ const WhyUs = () => {
   sit amet odio lobortis ullamcorper quis vel nisl. Nam blandit maximus
   tristique. Vivamus enim quam, tincidunt vel blandit eu, molestie eget.`;
   return (
-    <div className="wrapper-why-us">
+    <div className="wrapper-why-us" id="whyus">
       <div className="why-us">
         <h1>WHY CHOOSE US?</h1>
         <div className="border-div"></div>

@@ -3,24 +3,24 @@ import "./NavbarLinks.scss";
 const NavbarLinks = () => {
   return (
     <div className="nav-links">
-      <ul>
+      <ul className="nav-links__ul">
         <li>
-          <a href="#">Home</a>
+          <a href="#construction">Construction</a>
         </li>
         <li>
-          <a href="#">Home</a>
+          <a href="#aboutus">About Us</a>
         </li>
         <li>
-          <a href="#">Home</a>
+          <a href="#facilities">Services</a>
         </li>
         <li>
-          <a href="#">Home</a>
+          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
-          <a href="#">Home</a>
+          <a href="#ourteam">Our Team</a>
         </li>
         <li>
-          <a href="#">Home</a>
+          <a href="#contactus">Contact Us</a>
         </li>
       </ul>
     </div>
