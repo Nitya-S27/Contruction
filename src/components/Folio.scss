@@ -1,0 +1,103 @@
+$color1: #161853;
+$color2: #292c6d;
+$color3: #faedf0;
+$color4: #ec255a;
+$font-family: "Montserrat", sans-serif;
+
+.folio_wrapper {
+  font-family: $font-family;
+  margin: 7% 0;
+  text-align: center;
+  align-content: center;
+  @media (max-width: 600px) {
+    margin: 7% 5% 0;
+  }
+  h1 {
+    font-weight: 200;
+    font-size: 2rem;
+    margin: auto auto 1.5rem;
+  }
+  .border-div {
+    border-top: 3px solid $color4;
+    padding-bottom: 2rem;
+    width: 5rem;
+    text-align: center;
+    margin: auto;
+  }
+  .folio__para {
+    display: block;
+    margin: 0 auto 2rem;
+    width: 75%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    color: gray;
+    @media (max-width: 1024px) {
+      margin: 0 auto 2rem;
+      width: 100%;
+    }
+  }
+  .worksDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    @media (max-width: 600px) {
+      flex-direction: column;
+      gap: 10px;
+    }
+    // gap: 1rem;
+    .work {
+      flex: 25%;
+      position: relative;
+
+      &:hover {
+        .workImageOverlay {
+          transform: scale(1);
+        }
+      }
+      .workImage {
+        width: 100%;
+        object-fit: contain;
+      }
+      .workImageOverlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba($color: $color3, $alpha: 0.5);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transform: scale(0);
+        transition: 0.5s ease;
+        @media (max-width: 600px) {
+          transform: scale(1);
+          background-color: rgba($color: $color3, $alpha: 0.2);
+        }
+        .content {
+          color: black;
+          font-size: 2rem;
+          position: absolute;
+          font-weight: 600;
+          border: 3px solid $color4;
+          padding: 15% 30%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          //   text-align: center;
+          //   -webkit-transform: translate(-50%, -50%);
+          //   -ms-transform: translate(-50%, -50%);
+          //   transform: translate(-50%, -50%);
+          text-align: center;
+          @media (max-width: 600px) {
+            font-size: 1.3rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

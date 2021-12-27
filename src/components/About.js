@@ -2,7 +2,7 @@ import React from "react";
 import "./About.scss";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="aboutus">
       <h1>ABOUT US</h1>
       <div className="border-div"></div>
       <p className="about__para">

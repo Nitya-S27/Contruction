@@ -4,17 +4,18 @@ import {
   AiFillGooglePlusCircle,
   AiFillLinkedin,
 } from "react-icons/ai";
+
 const Overlay = (props) => {
   return (
     <div className="overlay">
       <div className="icons">
-        <a href={props.twitter} className="twitter">
+        <a href={props.object.twitter} className="twitter">
           <AiFillTwitterCircle />
         </a>
-        <a href={props.google} className="google">
+        <a href={props.object.google} className="google">
           <AiFillGooglePlusCircle />
         </a>
-        <a href={props.linkedin} className="linkedin">
+        <a href={props.object.linkedin} className="linkedin">
           <AiFillLinkedin />
         </a>
       </div>

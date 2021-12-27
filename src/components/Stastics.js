@@ -4,7 +4,7 @@ import "./Statistics.scss";
 
 const Stastics = () => {
   return (
-    <div className="statistics">
+    <div className="statistics" id="stats">
       <div className="stats-data">
         <div className="stats-data__num">
           <CountUp start={0} end={1240} duration={10} />

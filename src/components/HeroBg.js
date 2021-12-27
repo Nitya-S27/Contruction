@@ -25,7 +25,7 @@ const HeroBg = () => {
   ];
 
   return (
-    <div className="carousel">
+    <div className="carousel" id="hero">
       <Carousel autoplay={0.3} effect="fade" dots={false}>
         {images.map((image) => {
           return (
@@ -41,17 +41,17 @@ const HeroBg = () => {
       <a href="#construction">
         <div className="down-arrow">
           <div id="arrowAnim">
-            <div class="arrowSliding">
-              <div class="arrow"></div>
+            <div className="arrowSliding">
+              <div className="arrow"></div>
             </div>
-            <div class="arrowSliding delay1">
-              <div class="arrow"></div>
+            <div className="arrowSliding delay1">
+              <div className="arrow"></div>
             </div>
-            <div class="arrowSliding delay2">
-              <div class="arrow"></div>
+            <div className="arrowSliding delay2">
+              <div className="arrow"></div>
             </div>
-            <div class="arrowSliding delay3">
-              <div class="arrow"></div>
+            <div className="arrowSliding delay3">
+              <div className="arrow"></div>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import "./Team.scss";
 
 const Team = () => {
   return (
-    <div className="team">
+    <div className="team" id="ourteam">
       <h1>OUR TEAM</h1>
       <div className="border-div"></div>
       <p className="team__para">

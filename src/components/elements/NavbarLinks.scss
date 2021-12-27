@@ -4,20 +4,30 @@ $color3: #faedf0;
 $color4: #ec255a;
 
 .nav-links {
-  margin-right: 10rem;
-  li {
-    display: inline;
-  }
+  margin-right: 5%;
+  text-align: center;
+  margin: auto 0;
   a {
     color: $color1;
     text-decoration: none;
     padding-right: 2rem;
+    font-size: 0.9rem;
     &:hover {
       color: $color4;
     }
     &:focus {
       text-decoration: underline $color4;
       text-underline-position: under;
+    }
+  }
+  .nav-links__ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 0;
+
+    li {
+      display: inline;
     }
   }
 }

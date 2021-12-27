@@ -36,7 +36,7 @@ const Services = () => {
   ];
 
   return (
-    <div>
+    <div id="services">
       <div className="services__wrapper">
         <div className="services">
           {services.map(

@@ -68,7 +68,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="testimonials">
+    <div className="testimonials" id="testimonials">
       <h1>WHAT OTHER SAY ABOUT US</h1>
       <div className="border-div"></div>
       <p className="testimonial__para">
@@ -85,7 +85,7 @@ const Testimonials = () => {
         responsive={responsive}
       >
         {testimonials.map((testimonial) => (
-          <div>
+          <div key={testimonial.id}>
             <div className="testimonial__content" key={testimonial.id}>
               <img src={testimonial.imgSrc} alt="image" />
               <p>{testimonial.content}</p>

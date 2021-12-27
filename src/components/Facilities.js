@@ -37,7 +37,7 @@ const Facilities = () => {
     },
   ];
   return (
-    <div className="facilities">
+    <div className="facilities" id="facilities">
       <h1>WHAT WE OFFER</h1>
       <div className="border-div"></div>
       <p className="facility__para">

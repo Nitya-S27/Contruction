@@ -40,7 +40,7 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="footer-wrapper">
+    <div className="footer-wrapper" id="footer">
       <div className="footer-up">
         <div className="icons-div">
           {footerIconsData.map((icon) => (
