@@ -12,6 +12,7 @@ import WhyUs from "./components/WhyUs";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
+import Folio from "./components/Folio";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Construction />
       <About />
       <Stastics />
+      <Folio />
       <Facilities />
       <Services />
       <Testimonials />
