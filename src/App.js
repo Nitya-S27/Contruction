@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import HeroBg from "./components/HeroBg";
 import Construction from "./components/Construction";
 import About from "./components/About";
@@ -16,7 +16,7 @@ import ContactUs from "./components/ContactUs";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroBg />
       <Construction />
       <About />
