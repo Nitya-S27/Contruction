@@ -50,9 +50,7 @@ const Facilities = () => {
         {offeredFacilities.map((offers) => (
           <div key={offers.id} className="offers">
             <div className="offer-img-div">{offers.image}</div>
-            <a href="#" className="offer-des">
-              {offers.description}
-            </a>
+            <p className="offer-des">{offers.description}</p>
           </div>
         ))}
       </div>

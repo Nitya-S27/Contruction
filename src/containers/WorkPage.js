@@ -9,6 +9,9 @@ import { useEffect } from "react";
 const WorkPage = () => {
   let [searchParams, setSearchParams] = useSearchParams();
   //   console.log(searchParams.get("workId"));
+  if (1 === 2) {
+    setSearchParams();
+  }
   const workId = searchParams.get("workId") || "";
   const currentWork = works[workId] || {};
   console.log(currentWork);

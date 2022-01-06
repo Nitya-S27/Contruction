@@ -15,7 +15,7 @@ const Construction = () => {
       <div className="construction__images">
         <div>
           <img src="assets/img1.jpg" alt="random-images" />
-          <a href="#">
+          <a href="/">
             <h1>Construction Consultant</h1>
           </a>
           <p className="construction-image__para">
@@ -25,7 +25,7 @@ const Construction = () => {
         </div>
         <div>
           <img src="assets/img2.jpg" alt="random-images" />
-          <a href="#">
+          <a href="/">
             <h1>Resconstruction Services</h1>
           </a>
           <p className="construction-image__para">
@@ -35,7 +35,7 @@ const Construction = () => {
         </div>
         <div>
           <img src="assets/img3.jpg" alt="random-images" />
-          <a href="#">
+          <a href="/">
             <h1>Architectural Design</h1>
           </a>
           <p className="construction-image__para">

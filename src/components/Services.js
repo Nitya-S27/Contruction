@@ -45,7 +45,7 @@ const Services = () => {
                 <div className="services__des" key={service.id}>
                   <div className="services__image">{service.image}</div>
                   <div className="services__info">
-                    <a href="#" target="_blank">
+                    <a href="/" target="_blank">
                       {service.serice_heading}
                     </a>
                     <p>{service.service_des}</p>
@@ -61,7 +61,7 @@ const Services = () => {
                 <div className="services__des" key={service.id}>
                   <div className="services__image">{service.image}</div>
                   <div className="services__info">
-                    <a href="#" target="_blank">
+                    <a href="/" target="_blank">
                       {service.serice_heading}
                     </a>
                     <p>{service.service_des}</p>

@@ -87,7 +87,7 @@ const Testimonials = () => {
         {testimonials.map((testimonial) => (
           <div key={testimonial.id}>
             <div className="testimonial__content" key={testimonial.id}>
-              <img src={testimonial.imgSrc} alt="image" />
+              <img src={testimonial.imgSrc} alt="test__image" />
               <p>{testimonial.content}</p>
             </div>
             <div className="testimonial__owner">
